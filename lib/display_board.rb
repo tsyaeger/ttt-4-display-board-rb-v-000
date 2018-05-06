@@ -2,5 +2,9 @@
 # out the current state.
 
 
-def display_board(board)
-  line = 
+def display_board(new_board)
+  line = "-----------"
+  board = ["   "] * 9
+  
+  
+  board[0] + "|" + board[1] + line + board[2]
